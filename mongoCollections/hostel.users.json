@@ -5,6 +5,7 @@
   "email": "muhammaddanish14@gmail.com",
   "password": "$2a$10$o7kxmuInXN3xMyabWNfMouQ/0/8kuAhQRRiRTW.tl./1MfxwGyRyu",
   "isAdmin": true,
+  "isWarden": true,
   "date": {
     "$date": "2023-05-10T13:04:25.162Z"
   },
@@ -17,6 +18,7 @@
   "email": "muhammaddanish1458@gmail.com",
   "password": "$2a$10$jF4xgD6wlaNzl.Pek51k8u9ziS8G4vrb1YJAFBIg/p3lbsOmmsy6.",
   "isAdmin": false,
+  "isWarden": false,
   "date": {
     "$date": "2023-05-19T16:16:46.335Z"
   },
@@ -29,6 +31,7 @@
   "email": "ahad@gmail.com",
   "password": "$2a$10$4rBcMGt.bT9vwpZc2/2l/Oa2PF0tpQlidk/7xheBko88J3vF2ckVK",
   "isAdmin": false,
+  "isWarden": false,
   "date": {
     "$date": "2023-05-19T20:43:30.622Z"
   },

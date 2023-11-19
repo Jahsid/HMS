@@ -8,6 +8,17 @@ import Auth from "./components/LandingSite/AuthPage/Index";
 import SignIn from "./components/LandingSite/AuthPage/SignIn";
 import RequestAcc from "./components/LandingSite/AuthPage/Request";
 import AdminSignIn from "./components/LandingSite/AuthPage/AdminSignIn";
+import WardenSignIn from "./components/LandingSite/AuthPage/WardenSignIn";
+import WardenIndex from "./components/Dashboards/WardenDashboard/Index";
+import WardenHome from "./components/Dashboards/WardenDashboard/Home/Home";
+import RegisterStudents from "./components/Dashboards/WardenDashboard/RegisterStudents";
+import WardenAttendance from "./components/Dashboards/WardenDashboard/Attendance";
+import WardenComplaints from "./components/Dashboards/WardenDashboard/Complaints";
+import WardenInvoices from './components/Dashboards/WardenDashboard/Invoices'
+import WardenSuggestions from './components/Dashboards/WardenDashboard/Suggestions'
+import WardenSettings from './components/Dashboards/WardenDashboard/Settings'
+import AllStudent from "./components/Dashboards/WardenDashboard/AllStudent";
+import WardenMess from "./components/Dashboards/WardenDashboard/MessOff";
 import Index from "./components/Dashboards/StudentDashboard/Index";
 import Home from "./components/Dashboards/StudentDashboard/Home";
 import Mess from "./components/Dashboards/StudentDashboard/Mess";
@@ -40,6 +51,7 @@ function App() {
             <Route path="login" element={<SignIn />} />
             <Route path="request" element={<RequestAcc />} />
             <Route path="admin-login" element={<AdminSignIn />} />
+            <Route path="warden-login" element={<WardenSignIn />} />
           </Route>
         </Route>
         <Route path="/student-dashboard" element={<Index />}>
@@ -61,6 +73,17 @@ function App() {
           <Route path="settings" element={<AdminSettings/>} />
           <Route path="all-students" element={<AllStudents/>}/>
           <Route path="mess" element={<AdminMess />} />
+        </Route>
+        <Route path="/warden-dashboard" element={<WardenIndex />}>
+          <Route index element={<WardenHome />} />
+          <Route path='register-students' element={<RegisterStudents />} />
+          <Route path="attendance" element={<WardenAttendance />} />
+          <Route path="complaints" element={<WardenComplaints />} />
+          <Route path="invoices" element={<WardenInvoices/>} />
+          <Route path="suggestions" element={<WardenSuggestions/>} />
+          <Route path="settings" element={<WardenSettings/>} />
+          <Route path="all-student" element={<AllStudent/>}/>
+          <Route path="mess" element={<WardenMess />} />
         </Route>
       </Routes>
     </>

@@ -1,4 +1,5 @@
 const Admin = require('./Admin');
+const Warden = require('./Warden');
 const Hostel = require('./Hostel');
 const Student = require('./Student');
 const User = require('./User');
@@ -11,6 +12,7 @@ const Request = require('./Request');
 
 module.exports = {
     Admin,
+    Warden,
     Hostel,
     Student,
     User,

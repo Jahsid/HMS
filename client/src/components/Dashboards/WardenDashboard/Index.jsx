@@ -49,7 +49,7 @@ export default function Index() {
     },
     {
       text: "Attendance",
-      url: "/admin-dashboard/attendance",
+      url: "/warden-dashboard/attendance",
       svg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ export default function Index() {
     },
     {
       text: "Mess",
-      url: "/admin-dashboard/mess",
+      url: "/warden-dashboard/mess",
       svg: (
         <svg
           className="h-7 w-7"
@@ -88,7 +88,7 @@ export default function Index() {
     },
     {
       text: "Invoices",
-      url: "/admin-dashboard/invoices",
+      url: "/warden-dashboard/invoices",
       svg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ export default function Index() {
     },
     {
       text: "Complaints",
-      url: "/admin-dashboard/complaints",
+      url: "/warden-dashboard/complaints",
       svg: (
         <svg
           className="h-6 w-6"
@@ -130,7 +130,7 @@ export default function Index() {
     },
     {
       text: "Suggestions",
-      url: "/admin-dashboard/suggestions",
+      url: "/warden-dashboard/suggestions",
       svg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@ export default function Index() {
     },
     {
       text: "All Students",
-      url: "/admin-dashboard/all-students",
+      url: "/warden-dashboard/all-students",
       svg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
