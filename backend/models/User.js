@@ -15,6 +15,10 @@ const UserSchema = new Schema({
         type:Boolean,
         required:true,
     },
+    isWarden:{
+        type:Boolean,
+        required:true,
+    },
     date:{
         type:Date,
         default:Date.now

@@ -12,6 +12,8 @@ const verifysession = async () => {
       console.log(result.data.isAdmin);
       if (result.data.isAdmin) {
         window.location.href = "/admin-dashboard";
+      } else if (result.data.isWarden) {
+          window.location.href = "/warden-dashboard";
       } else {
         window.location.href = "/student-dashboard";
       }
